@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Comic</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        #menu {
+            height: 70px;
+            padding: 0;
+            margin: 0;
+            background-color: #000000;
+            border: 1px solid #CDCDCD;
+        }
+
+        #menu ul, #menu li {
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu li {
+            position: relative;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu li a {
+            width: 100px;
+            height: 30px;
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+        }
+
+        #menu ul ul li a {
+            width: 200px;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        #menu li a:hover {
+            background-color: red;
+        }
+
+        #menu ul ul {
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            visibility: hidden;
+        }
+
+        #menu ul li:hover ul {
+            visibility: visible;
+        }
+        img{
+            border:1px;
+        }
+    </style>
+</head>
+<body>
+<div id="menu">
+    <ul>
+
+        <li><a href="#">Truyện vui</a>
+            <ul>
+                <li><a href="#">vui như không vui</a></li>
+                <li><a href="#">Vui lắm</a></li>
+                <li><a href="#">bờ rúc</a></li>
+                <li><a href="#">........</a></li>
+                <li><a href="#">Vui ít</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Truyện cười </a>
+            <ul>
+                <li><a href="#">Cười như không cười</a></li>
+                <li><a href="#">Cười 1</a></li>
+                <li><a href="#">Cười 2</a></li>
+                <li><a href="#">Cười 3</a></li>
+                <li><a href="#">Cười ?</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Truyện như</a></li>
+        <ul>
+            <li><a href="#">Cười như không cười</a></li>
+            <li><a href="#">Cười 1</a></li>
+            <li><a href="#">Cười 2</a></li>
+            <li><a href="#">Cười 3</a></li>
+            <li><a href="#">Cười ?</a></li>
+        </ul>
+        <li><a href="#">Truyện zui</a></li>
+        <ul>
+            <li><a href="#">Cười như không cười</a></li>
+            <li><a href="#">Cười 1</a></li>
+            <li><a href="#">Cười 2</a></li>
+            <li><a href="#">Cười 3</a></li>
+            <li><a href="#">Cười ?</a></li>
+        </ul>
+
+
+    </ul>
+</div>
+<img src="https://st.nettruyenup.com/data/comics/32/vo-luyen-dinh-phong.jpg">
+<img src="https://st.nettruyenup.com/data/comics/166/de-nhat-vo-su-baek-cao-thu.jpg">
+<img src="https://st.nettruyenup.com/data/comics/114/dieu-khien-toi-quyet-tam-chet-di.jpg">
+<img src="https://st.nettruyenup.com/data/comics/37/mot-ngay-no-cha-bong-dung-xuat-hien.jpg">
+<img src="https://st.nettruyenup.com/data/comics/171/gay-go-cap-99-5344.jpg">
+</body>
+</html>
